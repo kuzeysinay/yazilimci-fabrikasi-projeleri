@@ -1,0 +1,200 @@
+html, body {
+    margin:0;
+    height:150%;
+    
+}
+
+
+
+.bg-img{
+    background-color: blueviolet;
+    background-image: url('main-page-background.jpg');
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+}
+
+#body{
+    margin: 0;
+    font-family: "Ubuntu";
+    background: linear-gradient(to right top, #5c24a7, #4d1f99, #3f198b, #31147d, #301467, #2d1552, #27143f, #20142c);
+
+
+}
+
+.navbar{
+    height: 100px;
+    background-image: url("main-page-background.jpg");
+    background-size: 27%;
+    font-family: "Ubuntu";
+}
+
+#jukebox-title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+#jukebox-title:hover{
+    opacity: 0.8;
+}
+
+#jukebox-icon{
+    height:50px ;
+    margin-left: 40px;
+    margin-right: 10px;
+    color: white;
+}
+
+#jukebox-icon:hover{
+    opacity: 0.8;
+    
+}
+
+
+
+#home{
+    color: white;
+    margin-left:30px;
+    margin-top: 30px;
+}
+
+#search-bar{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 0px;
+}
+
+#search-bar:hover{
+    background-color: lightgray;
+    
+}
+
+
+#search-btn{
+    height:50px;
+    width: 100px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #10cad7;
+}
+
+#search-btn:hover{
+    height:50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #0da2ad;
+}
+
+.room-box{
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 80px;
+    background: linear-gradient(to bottom, #20142c, #27143f, #2d1552, #301467, #31147d, #3f198b, #4d1f99);
+    color: white;
+    padding-top: 20px;
+}
+
+.room-box:hover{
+    opacity: 0.7;
+}
+
+.room-box-title{
+    text-align: right;
+    font-size: 40px;
+    margin-right: 70px;
+    margin-top: 27px;
+
+}
+
+.album-pic{
+    height: 180px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.album-pic-container{
+    text-align: left;
+    margin-top: 40px;
+}
+
+#whats-jukebox{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.explanation{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.user-count-container{
+    width: 100px;
+    background: linear-gradient(to top, #20142c, #27143f, #2d1552, #301467, #31147d, #3f198b, #4d1f99);
+    margin-top: 135px;
+    text-align: right;
+    height: 40px;
+    border-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+    margin-left: 225px;
+}
+
+#stupid{
+    margin-top: 84px;
+}
+
+#users-icon{
+    margin-right:-15px ;
+    margin-top: 6px;
+    margin-left: 5px;
+
+}
+
+#user-count{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2px;
+    margin-right: 19px;
+}
+
+.nav-button{
+    height: 50px;
+    width: 120px;
+    background-color: #10cad7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.nav-button:hover{
+    background-color: #0da2ad;
+
+}
+
+#clickable-profile-pic{
+    margin-right: 20px;
+    
+}
+
+#profile-pic{
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #10cad7;
+}
+
+#profile-pic:hover{
+    opacity: 0.8;
+    
+}
+
+
+

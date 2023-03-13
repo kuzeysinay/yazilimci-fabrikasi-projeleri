@@ -1,0 +1,22 @@
+.button{
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    color: rgb(230, 5, 5);
+    text-align: center;
+    
+}
+
+.button:hover{
+    color: black;
+}
+
+.console{
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 70px;
+    
+}

@@ -1,0 +1,21 @@
+.button{
+    border-radius: 30px;
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+}
+
+.button:hover{
+    color: black;
+}
+
+#indicators-bg{
+    background-color: lightskyblue;
+}
+
+.table{
+    color: red;;
+}

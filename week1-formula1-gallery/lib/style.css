@@ -1,0 +1,77 @@
+.jumbotron{
+    background: #383c44;
+    background-color: #383f47;
+    color: aliceblue;
+    border-radius: 0px;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+.card{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 300px;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.card-header{
+    background-color: #383c44;
+    color: white;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.card-img-top{
+    margin-top: 30%;
+}
+
+.card-img-top:hover{
+    margin-top: 20%;
+}
+
+.p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.navbar{
+    margin-bottom: 5%;
+}
+
+#footer{
+    margin-top: 5%;
+}
+
+#news, #calendar, #teams{
+    margin-right: 30px;
+}
+
+.nav-item{
+    font-size: 30px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    
+}
+
+#calendar-img{
+    height: 600px;
+}
+
+.cal-img-div{
+    display: flex;
+    justify-content: center;
+}
+
+#calendar-body{
+    background-color: #082c5c;
+}
+
+.t
