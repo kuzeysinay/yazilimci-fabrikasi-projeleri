@@ -1,16 +1,14 @@
 import * as actionTypes from './actionTypes';
 
-export const increaseCount=()=>({
-    type: actionTypes.INCREASE,
-    payload: 1
+export const increaseCounter=()=>({
+	type:actionTypes.INCREASE_COUNTER,
+	payload:1
 })
-
-export const decreaseCount = ()=>({
-    type: actionTypes.DECREASE,
-    payload: 1
+export const decreaseCounter=()=>({
+	type:actionTypes.DECREASE_COUNTER,
+	payload:1
 })
-
-export const increaseBy2Count = ()=>({
-    type: actionTypes.INCREASE_BY_2,
-    payload: 2
+export const increaseByTwoCounter=()=>({
+	type:actionTypes.INCREASE_BY_TWO_COUNTER,
+	payload:2
 })

@@ -1,18 +1,17 @@
 import * as actionTypes from '../actions/actionTypes';
 
 const counterReducer=(state=0, action)=>{
-    let newState;
-    switch(action.type){
-        
-        case actionTypes.INCREASE:
-            return (newState = state + action.payload);
-        case actionTypes.DECREASE:
-            return (newState = state - action.payload);
-        case actionTypes.INCREASE_BY_2:
-            return (newState = state + action.payload);
-        default:
-            return state;
-    }
-};
+	let newState;
+	switch(action.type){
+		case actionTypes.INCREASE_COUNTER:
+			return (newState=state +action.payload);
+		case actionTypes.DECREASE_COUNTER:
+			return (newState=state - action.payload);
+		case actionTypes.INCREASE_BY_TWO_COUNTER:
+			return (newState=state +action.payload);
+		default:
+			return state;
+	}
 
+};
 export default counterReducer;
