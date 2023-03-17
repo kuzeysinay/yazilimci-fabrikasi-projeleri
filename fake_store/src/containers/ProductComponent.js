@@ -9,8 +9,9 @@ const ProductComponent = () =>{
         const {id, title, image, price, category} = product;
         return(
         <div className="four wide" key={id}>
+            <Link to={`/products/${id}`}>
             <div className="ui link cards">
-                <div className="card">
+                <div className="card" >
                     <div className="image">
                         <img src={image} alt={title}/>
                     </div>
@@ -21,6 +22,7 @@ const ProductComponent = () =>{
                     </div>
                 </div>
             </div>
+            </Link>
         </div>
 
         );
